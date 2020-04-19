@@ -11,7 +11,8 @@
 
     sorted() in-built function:
      => Lists and Tuples can easily converted and sorted based on Ascending order but dictionaries don't.
-     => Dictionaries cannot be sorted directly but can be converted into LIST OF TUPLES with ( value : key) as output then can be manually converted and written in code as ( key : value) with for loop of ( my_value[1],:,my_value[0]) as shown below.
+     => Dictionaries cannot be sorted directly but can be converted into LIST OF TUPLES with ( value : key) as output 
+        then can be manually converted and written in code as ( key : value) with for loop of ( my_value[1],:,my_value[0]).
      
      
      Ex: def display_table(dataset, index):             #function declaration in python
