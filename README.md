@@ -11,4 +11,16 @@
 
     sorted() in-built function:
      => Lists and Tuples can easily converted and sorted based on Ascending order but dictionaries don't.
-     => Dictionaries cannot be sorted directly but can be converted into LIST OF TUPLES with ( value : key) as output then can be manually converted and written in code as ( key : value) with for loop of ( my_value[1],:,my_value[0])
+     => Dictionaries cannot be sorted directly but can be converted into LIST OF TUPLES with ( value : key) as output then can be manually converted and written in code as ( key : value) with for loop of ( my_value[1],:,my_value[0]) as shown below.
+     
+     
+     Ex: def display_table(dataset, index):
+    table = freq_table(dataset, index)
+    table_display = []
+    for key in table:
+        key_val_as_tuple = (table[key], key)
+        table_display.append(key_val_as_tuple)
+        
+    table_sorted = sorted(table_display, reverse = True)
+    for entry in table_sorted:
+        print(entry[1], ':', entry[0])
