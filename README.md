@@ -1,4 +1,4 @@
-# Profitable-App-Profiles-for-the-App-Store-and-Google-Play-Markets || My first Github Python Project
+# Profitable-App-Profiles-for-the-App-Store-and-Google-Play-Markets || My Github Python Project
 # Language used: 'Python'
   'Handy notes' on what functions to use while doing operations like removing duplicates and other.
 # Overview of the Project: 
